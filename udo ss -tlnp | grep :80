@@ -1,0 +1,28 @@
+[0;1;32m*[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (]8;;file://JARIYA/usr/lib/systemd/system/apache2.service/usr/lib/systemd/system/apache2.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Fri 2026-06-26 02:43:13 UTC; 1 week 0 days ago
+       Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;
+    Process: 327 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+    Process: 44651 ExecReload=/usr/sbin/apachectl graceful (code=exited, status=0/SUCCESS)
+   Main PID: 378 (apache2)
+      Tasks: 6 (limit: 57463)
+     Memory: 18.7M (peak: 27.4M)
+        CPU: 15.425s
+     CGroup: /system.slice/apache2.service
+             |-[0;38;5;245m  378 /usr/sbin/apache2 -k start[0m
+             |-[0;38;5;245m44659 /usr/sbin/apache2 -k start[0m
+             |-[0;38;5;245m44660 /usr/sbin/apache2 -k start[0m
+             |-[0;38;5;245m44661 /usr/sbin/apache2 -k start[0m
+             |-[0;38;5;245m44662 /usr/sbin/apache2 -k start[0m
+             `-[0;38;5;245m44663 /usr/sbin/apache2 -k start[0m
+
+Jun 30 00:00:25 JARIYA systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+Jul 01 00:00:25 JARIYA systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+Jul 01 00:00:25 JARIYA apachectl[31145]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 01 00:00:25 JARIYA systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+Jul 02 00:00:25 JARIYA systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+Jul 02 00:00:25 JARIYA apachectl[38266]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 02 00:00:25 JARIYA systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+Jul 03 00:00:25 JARIYA systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+Jul 03 00:00:25 JARIYA apachectl[44654]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 03 00:00:25 JARIYA systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
